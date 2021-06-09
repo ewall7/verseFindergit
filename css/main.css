@@ -1,0 +1,60 @@
+body {
+  background: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+.navbar-inverse {
+  background: #2c3e50;
+  color: white;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.search-btn {
+  color: #3448bd;
+}
+
+.container .display-4 {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+.jumbotron .display-4 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.jumbotron .lead {
+  text-align: center;
+}
+
+.form-inline {
+  float: left;
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */
+.display-container {
+  margin-top: 40px;
+}
+.mood-label {
+  font-size: 15px;
+}
+#mood {
+  width: 100px;
+  height: 25px;
+}

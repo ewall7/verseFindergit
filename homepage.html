@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css"
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+
+	<title>verse finder</title>
+</head>
+
+<body>
+	<!-- ----------------------------------------------navbar------------------------------------------------>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="homepage.html" class="navbar-brand">Verse Finder</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">learn Arabic</a></li>
+					<li><a href="#">translation</a></li>
+					<li><a href="library.html">library</a></li>
+					<li><a href="#">donate</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://localhost:3000/" target="_blank">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="display-4">Verse Finder</h1>
+			<p class="lead">this website will help you find verses from Quran accroding to ceratin moods and topics</p>
+			<hr class="my-4">
+		</div>
+
+	</div>
+
+
+	<!-- <div class="container search-container ">
+		<form class="form-inline">
+			<div class="form-group mx-sm-3 mb-2">
+				<input type="text" class="mood-input" placeholder="enter mood">
+			</div>
+			<button type="search" class="search-btn" class=" btn btn-primary mb-2">search</button>
+		</form>
+	</div> -->
+	<div class="container">
+		<label for="mood" class="mood-label">Select Mood</label>
+
+		<select id="mood">
+			<option value="Happy">Happy</option>
+			<option value="Love">Love</option>
+			<option value="Angry">Angry</option>
+			<option value="Anxoius">Anxoius</option>
+			<option value="Peace">Peace</option>
+		</select>
+		<button type="search" class="search-btn" class=" btn btn-primary mb-2">search</button>
+	</div>
+	<div class=" container display-container"></div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="homepage.js"></script>
+
+
+</body>
+
+</html>

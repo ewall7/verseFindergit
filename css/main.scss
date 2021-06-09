@@ -1,0 +1,106 @@
+// :root {
+//     --primary-color: #007af3;
+// }
+// body {
+//     background-color: #f2f2f2f2;
+//     margin: 0;
+//     font-family: "Poppins";
+// }
+// .navbar {
+//     .logo {
+//         font-weight: bold;
+//         text-decoration: none;
+//         font-size: 1.2em;
+//         color: black;
+//         span {
+//             color: var(--primary-color);
+//         }
+//     }
+//     nav {
+//         display: none;
+//     }
+//     .container {
+//         display: flex;
+//         place-content: space-between;
+//     }
+//     .mobile-menu {
+//         cursor: pointer;
+//     }
+// }
+// a {
+//     color: #444444;
+// }
+// ul {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+// }
+// section {
+//     padding: 5em 2em;
+// }
+// .hero {
+//     text-align: center;
+// }
+// .left-col {
+//     .subhead {
+//         text-transform: uppercase;
+//         color: grey;
+//         letter-spacing: 0.3em;
+//     }
+//     h1 {
+//         font-size: 2.5em;
+//     }
+//     .primary-cta {
+//         text-decoration: none;
+//         padding: 0.2em;
+//         background-color: blue;
+//         color: white;
+//         font: 1.2em;
+//         border-radius: 5em;
+//     }
+// }
+
+body {
+    // backgrouxnd-color: red;
+    background: url("/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    // background-position: center;
+}
+.navbar-inverse {
+    background: #2c3e50;
+    color: white;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse a {
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.search-btn {
+    color: rgb(52, 72, 189);
+}
+.container {
+    .display-4 {
+        text-align: center;
+    }
+}
+.jumbotron {
+    margin-top: 30px;
+    background-color: transparent;
+
+    .display-4 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .lead {
+        text-align: center;
+    }
+}
+.form-inline {
+    float: left;
+    display: inline;
+}
